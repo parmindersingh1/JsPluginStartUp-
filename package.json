@@ -5,9 +5,9 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
-    "build": "rollup -c",
+    "build:lib": "rollup -c",
     "dev": "rollup -c -w",
-    "build:prod": "npm run build",
+    "build": "npm run build",
     "build:dev": "npm run dev",
     "pack": "npm pack" 
   },
